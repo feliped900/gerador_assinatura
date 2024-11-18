@@ -7,11 +7,11 @@ from io import BytesIO
 imagem_base_path = "assinatura_modelo.png"
 
 # Carregar as fontes
-fonte = ImageFont.truetype("C:\\Users\\felip\\OneDrive\\Projetos de Tecnologia\\ass_modelo_sutter\\fontes\\OUTFIT-BLACK.TTF", 14)
-fonte_cargo = ImageFont.truetype("C:\\Users\\felip\\OneDrive\\Projetos de Tecnologia\\ass_modelo_sutter\\fontes\\OUTFIT-MEDIUM.TTF", 30)
-fonte_nome = ImageFont.truetype("C:\\Users\\felip\\OneDrive\\Projetos de Tecnologia\\ass_modelo_sutter\\fontes\\OUTFIT-MEDIUM.TTF", 56)
-fonte_telefone = ImageFont.truetype("C:\\Users\\felip\\OneDrive\\Projetos de Tecnologia\\ass_modelo_sutter\\fontes\\OUTFIT-MEDIUM.TTF", 36)
-fonte_email = ImageFont.truetype("C:\\Users\\felip\\OneDrive\\Projetos de Tecnologia\\ass_modelo_sutter\\fontes\\OUTFIT-MEDIUM.TTF", 36)
+fonte = ImageFont.truetype("fontes\\OUTFIT-BLACK.TTF", 14)
+fonte_cargo = ImageFont.truetype("fontes\\OUTFIT-MEDIUM.TTF", 30)
+fonte_nome = ImageFont.truetype("fontes\\OUTFIT-MEDIUM.TTF", 56)
+fonte_telefone = ImageFont.truetype("fontes\\OUTFIT-MEDIUM.TTF", 36)
+fonte_email = ImageFont.truetype("fontes\\OUTFIT-MEDIUM.TTF", 36)
 
 # Função para gerar uma assinatura
 def gerar_assinatura(nome, email, cargo, telefone, foto_path=None):
