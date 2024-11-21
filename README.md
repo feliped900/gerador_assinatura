@@ -30,11 +30,48 @@ Antes de iniciar, certifique-se de que os seguintes requisitos estão atendidos:
   ```bash
   pip install -r requirements.txt
   ````
-2. **Adicione os arquivos necessários**:
+3. **Adicione os arquivos necessários**:
 - Certifique-se de que o arquivo da imagem base assinatura_modelo.png está na raiz do projeto.
 - Insira as fontes no diretório fontes/ com os arquivos:
   - OUTFIT-BLACK.TTF
   - OUTFIT-MEDIUM.TTF
+ 
+4. **Execute a aplicação**:
+   ```bash
+   streamlit run app.py
+   ```
+5. **Use a interface**:
+- Preencha os campos: nome, email, cargo, telefone e foto (opcional).
+- Clique no botão Gerar Assinatura.
+- Baixe sua assinatura clicando no botão de download.
 
 
+## Estrutura do Projeto
 
+   ```bash
+    gerador-de-assinaturas/
+  │
+  ├── app.py                   # Código principal da aplicação
+  ├── assinatura_modelo.png    # Imagem base para a assinatura
+  ├── fontes/                  # Diretório com as fontes
+  │   ├── OUTFIT-BLACK.TTF
+  │   └── OUTFIT-MEDIUM.TTF
+  ├── requirements.txt         # Dependências do projeto
+  └── README.md                # Documentação do projeto
+   ```
+## Demonstração
+Exemplo de assinatura gerada pelo aplicativo.
+
+## Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+## Licença
+Este projeto está licenciado sob a MIT License.
+
+  ```bash
+  ### Notas:
+  1. Altere o URL do repositório para o correto após publicá-lo no GitHub.
+  2. Inclua um exemplo real em `example-image.png` para demonstrar a funcionalidade.
+  3. Adicione um arquivo `requirements.txt` com as dependências do projeto.
+  ```
+    
