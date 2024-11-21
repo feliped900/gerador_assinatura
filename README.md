@@ -29,7 +29,7 @@ Antes de iniciar, certifique-se de que os seguintes requisitos estão atendidos:
 2. **Instale as dependências**:
   ```bash
   pip install -r requirements.txt
-  ````
+  ```
 3. **Adicione os arquivos necessários**:
 - Certifique-se de que o arquivo da imagem base assinatura_modelo.png está na raiz do projeto.
 - Insira as fontes no diretório fontes/ com os arquivos:
@@ -59,6 +59,7 @@ Antes de iniciar, certifique-se de que os seguintes requisitos estão atendidos:
   ├── requirements.txt         # Dependências do projeto
   └── README.md                # Documentação do projeto
    ```
+
 ## Demonstração
 Exemplo de assinatura gerada pelo aplicativo.
 
@@ -68,10 +69,9 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 ## Licença
 Este projeto está licenciado sob a MIT License.
 
-  ```bash
-  ### Notas:
-  1. Altere o URL do repositório para o correto após publicá-lo no GitHub.
-  2. Inclua um exemplo real em `example-image.png` para demonstrar a funcionalidade.
-  3. Adicione um arquivo `requirements.txt` com as dependências do projeto.
-  ```
+### Notas:
+1. Altere o URL do repositório para o correto após publicá-lo no GitHub.
+2. Inclua um exemplo real em `example-image.png` para demonstrar a funcionalidade.
+3. Adicione um arquivo `requirements.txt` com as dependências do projeto.
+  
     
