@@ -21,3 +21,9 @@ Antes de iniciar, certifique-se de que os seguintes requisitos estão atendidos:
 ## Como usar
 
 1. **Clone o repositório**:
+
+  ```
+  git status
+  git add
+  git commit
+  ```
