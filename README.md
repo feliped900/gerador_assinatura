@@ -18,22 +18,22 @@ Antes de iniciar, certifique-se de que os seguintes requisitos estão atendidos:
   - `streamlit`
   - `Pillow`
 
-## Como usar
+### Como usar
 
-1. **Clone o repositório:**
+## Clone o repositório:
 
 ```python
 git clone https://github.com/seu-usuario/gerador-de-assinaturas.git
 cd gerador-de-assinaturas
 ```
 
-2. **Instale as dependências:**
+## Instale as dependências:
 
 ```python
 pip install -r requirements.txt
 ```
 
-3. **Adicione os arquivos necessários:**
+## Adicione os arquivos necessários:
 - Certifique-se de que o arquivo da imagem base assinatura_modelo.png está na raiz do projeto.
   - Insira as fontes no diretório fontes/ com os arquivos:
   - `OUTFIT-BLACK.TTF`
