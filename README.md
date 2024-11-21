@@ -1,6 +1,6 @@
 # Gerador de Assinaturas
 
-Este projeto é um gerador de assinaturas personalizadas desenvolvido em Python com Streamlit. Ele permite criar imagens de assinatura profissional com nome, cargo, telefone, email e foto de perfil opcional. 
+Este projeto é um gerador de assinaturas personalizadas desenvolvido em Python com Streamlit. Ele permite criar imagens de assinatura profissional com nome, cargo, telefone, email e foto de perfil opcional.
 
 ## Funcionalidades
 
@@ -21,57 +21,3 @@ Antes de iniciar, certifique-se de que os seguintes requisitos estão atendidos:
 ## Como usar
 
 1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/seu-usuario/gerador-de-assinaturas.git
-   cd gerador-de-assinaturas
-   ```
-
-2. **Instale as dependências**:
-  ```bash
-  pip install -r requirements.txt
-  ```
-3. **Adicione os arquivos necessários**:
-- Certifique-se de que o arquivo da imagem base assinatura_modelo.png está na raiz do projeto.
-- Insira as fontes no diretório fontes/ com os arquivos:
-  - OUTFIT-BLACK.TTF
-  - OUTFIT-MEDIUM.TTF
- 
-4. **Execute a aplicação**:
-   ```bash
-   streamlit run app.py
-   ```
-5. **Use a interface**:
-- Preencha os campos: nome, email, cargo, telefone e foto (opcional).
-- Clique no botão Gerar Assinatura.
-- Baixe sua assinatura clicando no botão de download.
-
-
-## Estrutura do Projeto
-
-   ```bash
-    gerador-de-assinaturas/
-  │
-  ├── app.py                   # Código principal da aplicação
-  ├── assinatura_modelo.png    # Imagem base para a assinatura
-  ├── fontes/                  # Diretório com as fontes
-  │   ├── OUTFIT-BLACK.TTF
-  │   └── OUTFIT-MEDIUM.TTF
-  ├── requirements.txt         # Dependências do projeto
-  └── README.md                # Documentação do projeto
-   ```
-
-## Demonstração
-Exemplo de assinatura gerada pelo aplicativo.
-
-## Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
-
-## Licença
-Este projeto está licenciado sob a MIT License.
-
-### Notas:
-1. Altere o URL do repositório para o correto após publicá-lo no GitHub.
-2. Inclua um exemplo real em `example-image.png` para demonstrar a funcionalidade.
-3. Adicione um arquivo `requirements.txt` com as dependências do projeto.
-  
-    
