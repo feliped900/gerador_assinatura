@@ -22,8 +22,13 @@ Antes de iniciar, certifique-se de que os seguintes requisitos estão atendidos:
 
 1. **Clone o repositório**:
 
-  ```
-  git status
-  git add
-  git commit
-  ```
+```
+git clone https://github.com/seu-usuario/gerador-de-assinaturas.git
+cd gerador-de-assinaturas
+```
+
+2. **Instale as dependências:**
+
+```
+pip install -r requirements.txt
+```
